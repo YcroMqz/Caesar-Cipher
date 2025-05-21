@@ -6,11 +6,11 @@ int main(){
     unsigned int key;
 
     printf("Sentence: ");
-    scanf("%256[^\n]s", sent);
+    scanf("%256[^\n]", sent);
     getchar();
 
     printf("Key: ");
-    scanf("%d", &key);
+    scanf("%u", &key);
 
     for(int i = 0; sent[i] != '\0'; i++){
         char ch = sent[i];
